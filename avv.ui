@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.2">
+  <object class="tk.LabelFrame" id="labelframe2">
+    <property name="font">{Arial} 20 {}</property>
+    <property name="height">200</property>
+    <property name="relief">raised</property>
+    <property name="takefocus">true</property>
+    <property name="text" translatable="yes">Cadastro
+de 
+Candidatos</property>
+    <property name="width">200</property>
+    <layout manager="pack">
+      <property name="side">top</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="compound">top</property>
+        <property name="font">TkDefaultFont</property>
+        <property name="text" translatable="yes">nome</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry1">
+        <property name="relief">flat</property>
+        <property name="takefocus">false</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label2">
+        <property name="justify">left</property>
+        <property name="text" translatable="yes">partido</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry2">
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button1">
+        <property name="takefocus">false</property>
+        <property name="text" translatable="yes">cadastrar</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

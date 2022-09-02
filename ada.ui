@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.2">
+  <object class="tk.Frame" id="frame1">
+    <property name="background">#ffffff</property>
+    <property name="height">100</property>
+    <property name="relief">sunken</property>
+    <property name="takefocus">true</property>
+    <property name="width">100</property>
+    <layout manager="grid">
+      <property name="column">1</property>
+      <property name="row">0</property>
+      <property name="sticky">n</property>
+    </layout>
+    <child>
+      <object class="tk.Message" id="message3">
+        <property name="anchor">n</property>
+        <property name="borderwidth">133</property>
+        <property name="font">{Arial} 20 {bold}</property>
+        <property name="padx">100</property>
+        <property name="pady">100</property>
+        <property name="relief">raised</property>
+        <property name="takefocus">true</property>
+        <property name="text" translatable="yes">Urna eletronica</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="vote">
+        <property name="bitmap">gray75</property>
+        <property name="compound">top</property>
+        <property name="cursor">arrow</property>
+        <property name="font">{Arial} 12 {}</property>
+        <property name="text" translatable="yes">vote</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">1</property>
+          <property name="sticky">s</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="cadastrar_candidato">
+        <property name="font">{Arial} 12 {}</property>
+        <property name="text" translatable="yes">cadastrar candidato</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">2</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
